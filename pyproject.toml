@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "kaggle"
+version = "0.0.0"
+description = "Code for a variety of kaggle projects"
+authors = ["iain Lee <icleen@gmail.com>"]
+license = ""
+readme = "README.md"
+repository = "https://github.com/icleen/kaggle.git"
+packages = [
+    { include = "hnm_recs" },
+    { include = "methods" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24"
+scipy = "^1.10"
+transforms3d = "^0.4.1"
+matplotlib = "^3.7"
+pytest = "^7.3"
+torch="^2.4.0"
+pandas="^2.0.0"
+scikit-learn="^1.5.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,19 @@
+name: kaggle
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - conda-forge::ncurses
+  - ipython
+  - jupyter
+  - tqdm
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - pyyaml
+  - pytorch::pytorch=2.4.*
+  - tensorboard
+  - torchvision
+  - torchaudio
